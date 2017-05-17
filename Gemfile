@@ -9,6 +9,7 @@ gem("sinatra")
 gem("bcrypt")
 gem("json")
 gem("pry")
+gem("sinatra-websocket")
 
 
 group(:test) do

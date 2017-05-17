@@ -1,14 +1,12 @@
-<div id="chatroom">
-  <ul>
-    <li id="name"></li>
-    <li id="timestamp"></li>
-    <li id="content"></li>
-    <hr>
-  </ul>
-</div>
+<div id="page-wrapper">
 
-<form id="new-msg-form" action="">
-  <label for="new-message"></label>
-  <input id="new-message" type="text" name="new-message">
-  <button id="send" type="submit">Send</button>
-</form>
+	<div class="open" id="status">Connecting...</div>
+
+	<ul id="messages"></ul>
+
+	<form id="message-form" action="#" method="post">
+		<textarea id="message" placeholder="Write your message here..." required></textarea>
+		<button type="submit">Send Message</button>
+		<button type="button" id="close">Close Connection</button>
+	</form>
+</div>
